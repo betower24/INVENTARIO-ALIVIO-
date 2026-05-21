@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
 def hola_mundo(request):
-    return render(request, 'inicio/index.html')
+    return render(request, 'inventario/templates/index.html')
